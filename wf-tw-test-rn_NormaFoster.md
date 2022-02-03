@@ -4,7 +4,7 @@
 
 **RELEASE DATE** October 30, 2020
 
-Increase you productivity and simplify your work with the new Intelligent Automation Cloud v.10.2. Beyond helpful bug fixes, improvements, and deprecations that address user requests and solve earlier flaws, the highlights of this release include:
+Increase your productivity and simplify your work with the new Intelligent Automation Cloud v.10.2. Beyond helpful bug fixes, improvements, and deprecations that address user requests and solve earlier flaws, the highlights of this release include:
 
 - **WorkSpace 2.0** -- a human-in-the-loop tool, tackles exception-handling issue, allowing faster completion and improving compliance. Compared to the previous version, WorkSpace 2.0 is strengthened with a feature that enables you to manipulate and adjust the workflow.** 
 - **New A/B testing** -- allows you to improve your pre-trained bots performance by helping you validate automation variations, review Analytics dashboards, and choose the most confident automation version. 
