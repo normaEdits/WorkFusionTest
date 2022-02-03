@@ -5,6 +5,7 @@ If you feel that some edits are a matter of style, follow the[ Google Developer 
 —————  
 
 **Working With Bot Tasks**
+
 Here is some helpful Bot Task terminology
 
 **Bot Tasks** contain work to be done by WorkFusion’s Bot. These Bots perform the steps in your Business Process which are more suited for automation than human labor. Bot Tasks can exist only as a Business Processes step.  
