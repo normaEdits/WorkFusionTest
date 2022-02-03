@@ -6,11 +6,11 @@ If you feel that some edits are a matter of style, follow the[ Google Developer 
 
 **Working With Bot Tasks**
 
-Here is some helpful Bot Task terminology
+Here is some helpful Bot Task terminology.
 
 **Bot Tasks** contain work to be done by WorkFusion’s Bot. These Bots perform the steps in your Business Process which are more suited for automation than human labor. Bot Tasks can exist only as a Business Processes step.  
 
-For example: address parsing, determining the width and height of an image, interacting with your API or repository, or filtering content that do not meet certain criteria.  
+For example, you could use Bot Tasks for address parsing, determining the width and height of an image, interacting with your API or repository, or filtering content that do not meet certain criteria.  
 
 **Bot Configs** are written using Web-Harvest library and are executed for each Record separately. For writing Web-Harvest XML configs you can use pre- defined Web-Harvest XML elements described here or WorkFusion plugins.  
 
@@ -25,7 +25,7 @@ For example: address parsing, determining the width and height of an image, inte
 3. If needed, make changes to column names, use proxy, datastore connection, output column names.  
 3. Update the created Bot Use Case and use it in your production Business Process Step.  
 
-Alternatively you can create a Bot Task in the Business Process Step (Design Process tab) from scratch (Blank Use Case) and paste your code, but this approach leads to multiple issues.  
+Alternatively you can create a Bot Task in the Business Process Step (Design Process tab) from scratch (Blank Use Case) and paste your code, but this approach is not recommended because it can  cause other issues.  
 
 **Execution Details**  
 
@@ -68,6 +68,10 @@ The following example:
 
     <export include-original-data="true">  
 
-    <!--adding a new column with the http plugin result to the export file-->          <single-column name="http" value="${http\_response}"/>     </export>  
+    <!--adding a new column with the http plugin result to the export file-->          
+    
+    <single-column name="http" value="${http\_response}"/>     
+    
+    </export>  
 
 </config> 
